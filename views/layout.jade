@@ -3,5 +3,11 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(rel='stylesheet', src='/lib/bootstrap/dist/css/bootstrap.min.css')
+    block styles  
   body
     block content
+    
+    script(src='/lib/jquery/dist/jquery.min.js')  
+    script(src='/lib/bootstrap/dist/js/bootstrap.min.js')  
+    block scripts
